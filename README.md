@@ -9,6 +9,8 @@ Este sistema representa un control de protección frente a situaciones de sobret
 
 Ante una sobretensión, el sistema se encargará de aislar la carga y reestablecerla una vez que la red se encuentre dentro de un rango seguro. Además, se utilizan tiempos de control y verificación para determinar la persistencia de la condición, y así, evitar cambios instantáneos entre estados ante variaciones momentáneas en la tensión. 
 
+## Diagrama de la máquina de estado:
+
 <img width="825" height="733" alt="image" src="https://github.com/user-attachments/assets/f2f33205-4c43-45c4-9678-115f512ac3a6" />
 
 - __Normal__ : operación segura del sistema, la tensión se encuentra dentro del rango nominal permitido.
